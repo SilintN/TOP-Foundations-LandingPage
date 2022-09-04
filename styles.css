@@ -9,7 +9,30 @@ header {
   color: white;
   height: 200px;
 }
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
 .header,
 .hero {
   display: flex;
+}
+.header {
+  justify-content: space-between;
+  height: 50px;
+}
+.quote {
+  background-color: #e5e7eb;
+}
+
+.call4Action {
+  display: flex;
+  flex-direction: row;
+}
+
+.callContainer {
+  display: flex;
+  background-color: #3882f6;
 }
