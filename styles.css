@@ -24,17 +24,18 @@ footer {
   text-align: center;
   font-size: 10px;
 }
-
+a {
+  cursor: pointer;
+}
 button {
   background-color: #3882f6;
   color: white;
-  border: 1px solid white;
   border-radius: 4px;
-  padding: 5px 15px;
-}
-button.heroBtn {
   border: none;
+  padding: 5px 15px;
+  cursor: pointer;
 }
+
 .logo {
   width: 30px;
 }
@@ -98,7 +99,15 @@ button.heroBtn {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  text-align: center;
   padding: 8px;
+  border: none;
+  border-radius: 6px;
+  width: 190px;
+  height: 200px;
+  box-shadow: 2px 2px 8px rgb(121, 119, 119);
+  cursor: pointer;
 }
 .cardImg {
   height: 100px;
@@ -123,9 +132,22 @@ button.heroBtn {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: 300px;
 }
 
 .callContainer {
   display: flex;
+  align-items: center;
+  width: 700px;
   background-color: #3882f6;
+  gap: 80px;
+  border-radius: 10px;
+  padding: 0 30px;
+}
+.text4Action {
+  color: white;
+  padding: 10px;
+}
+button.actionBtn {
+  border: 1px solid white;
 }
