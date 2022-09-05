@@ -15,7 +15,7 @@ header {
   height: 200px;
 }
 content {
-  display: flex;
+  margin-top: 10px;
 }
 footer {
   background-color: #1f2937;
@@ -60,18 +60,40 @@ button.heroBtn {
 }
 .hero {
   justify-content: center;
+  margin-bottom: 10px;
   gap: 50px;
 }
 .heroContainer {
   width: 400px;
   padding: 20px;
 }
-h1 {
-}
 
 .heroImg {
   width: 200px;
+  height: 200px;
   margin: 20px;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardImg {
+  height: 100px;
 }
 .quote {
   display: flex;
